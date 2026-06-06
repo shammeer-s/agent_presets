@@ -4,7 +4,7 @@
         "Stop": [
             {
                 "type": "command",
-                "command": "python3 -u .agents/plugins/auto-git/git-commit.py",
+                "command": "node .agents/plugins/auto-git/git-commit.js",
                 "timeout": 30
             }
         ]
