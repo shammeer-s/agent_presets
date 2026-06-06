@@ -1,0 +1,12 @@
+{
+    "auto-git-hook": {
+        "enabled": true,
+        "Stop": [
+            {
+                "type": "command",
+                "command": "python3 .agents/plugins/auto-git/commit.py",
+                "timeout": 30
+            }
+        ]
+    }
+}
